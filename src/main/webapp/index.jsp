@@ -4,7 +4,10 @@
         <h1 style="color: violet; font-size: 40px;" align="center">  This is ayyappa </h1>
 	<h1 style="color: violet; font-size: 40px;" align="center">  Hellow ayyappa </h1>
 
-	<h2 style="color: blue;"> this is the 2nd version of my application </h2>
+	<h1 style="color: violet; font-size: 40px;" align="center">  i am rambabu </h1>
+   	<h1 style="color: violet; font-size: 40px;" align="center"> we are friends </h1>
+	<h1 style="color: violet; font-size: 40px;" align="center"> He has gym body </h1>
+
 	
 </body>
 </html>
