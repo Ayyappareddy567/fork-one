@@ -1,71 +1,53 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>DevOps Course</title>
-    <link rel="stylesheet" href="style.css">
-</head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cinephile's Corner</title>
+    <link rel="stylesheet" href="style.css"> </head>
 <body>
-    <h1>DevOps Course</h1>
+    <header>
+        <h1>Cinephile's Corner</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Reviews</a></li>
+                <li><a href="#">News</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
 
-    <h2>Introduction to DevOps</h2>
-    <p>DevOps is a set of practices that aims to shorten the systems development life cycle and provide continuous delivery with high   
- quality.</p>
-    <img src="devops-lifecycle.png" alt="DevOps Lifecycle Diagram">
+    <main>
+        <section class="featured-post">
+            <h2>Featured Post</h2>
+            <img src="featured-post-image.jpg" alt="Featured Post Image">
+            <h3>The Masterpiece You've Been Waiting For</h3>
+            <p>A captivating review of a groundbreaking film.</p>
+            <a href="#">Read More</a>
+        </section>
 
-    <h2>Core Concepts</h2>
-    <ul>
-        <li>Continuous Integration (CI)</li>
-        <li>Continuous Delivery (CD)</li>
-        <li>Infrastructure as Code (IaC)</li>
-    </ul>
+        <section class="recent-reviews">
+            <h2>Recent Reviews</h2>
+            <ul>
+                <li>
+                    <h3>A Cinematic Gem</h3>
+                    <p>A brief review of a recent release.</p>
+                    <a href="#">Read More</a>
+                </li>
+                <li>
+                    <h3>A Disappointing Stumble</h3>
+                    <p>A critical review of a highly anticipated film.</p>
+                    <a href="#">Read More</a>
+                </li>
+                </ul>
+        </section>
+    </main>
 
-    <h3>Continuous Integration (CI)</h3>
-    <p>CI is the practice of automating the integration of code changes from multiple contributors into a single project.</p>
-    <img src="ci-cd-pipeline.png" alt="CI/CD Pipeline Diagram">
-
-    <h3>Continuous Delivery (CD)</h3>
-    <p>CD is the practice of automating the deployment of applications to production.</p>
-
-    <h3>Infrastructure as Code (IaC)</h3>
-    <p>IaC is the practice of managing and provisioning infrastructure through code.</p>
-
-    <h2>Version Control Systems</h2>
-    <p>Version control systems (VCS) are used to track changes to source code over time.</p>
-    <ul>
-        <li>Git</li>
-        <li>SVN</li>
-    </ul>
-
-    <h2>Configuration Management Tools</h2>
-    <p>Configuration management tools are used to automate the configuration of systems.</p>
-    <ul>
-        <li>Ansible</li>
-        <li>Puppet</li>
-        <li>Chef</li>
-    </ul>
-
-    <h2>Containerization</h2>
-    <p>Containerization is the practice of packaging applications into standardized units called containers.</p>
-    <ul>
-        <li>Docker</li>
-        <li>Kubernetes</li>
-    </ul>
-
-    <h2>Cloud Computing</h2>
-    <p>Cloud computing is the delivery of computing services over the Internet.</p>
-    <ul>
-        <li>AWS</li>
-        <li>Azure</li>
-        <li>Google Cloud Platform (GCP)</li>
-    </ul>
-
-    <h2>Monitoring and Logging</h2>
-    <p>Monitoring and logging tools are used to track the performance and health of systems.</p>
-    <ul>
-        <li>Prometheus</li>
-        <li>Grafana</li>
-        <li>ELK Stack</li>
-    </ul>
-
-    </body>
+    <footer>
+        <p>&copy; 2023 Cinephile's Corner</p>
+        <p>All Rights Reserved</p>
+    </footer>
+</body>
 </html>
